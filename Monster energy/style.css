@@ -1,0 +1,369 @@
+
+body {
+ font-family: 'Trattatello, fantasy', cursive;
+ padding: 0;
+ margin: 0;
+ background-image: url(https://pre00.deviantart.net/b084/th/pre/f/2010/182/a/4/monster_energy_wallpaper_by_undeadjx.jpg);
+}
+
+h3 {
+  font-size: 25px;
+  
+}
+.logo {
+max-width: 30%;
+padding-top: 20px;
+border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 20px #00fc21 inset;
+
+}
+h1
+{
+	border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 20px #00fc21 inset;
+}
+
+.meniToggle
+{
+	color: #00fc21;
+	border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 20px #00fc21 inset;
+  width: 400px;
+  
+}
+.sidebar {
+width: 25%;
+position: fixed;
+margin-left: 2%;
+}
+
+.sidenav {
+width: 400px;
+background-color: #00fc21;
+padding: 1% 0 1% 1%;
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10px 20px black inset;
+display: none;
+
+}
+
+.sidenav a:hover {
+  background: white;
+  box-shadow: 5px 10px 20px green inset;
+  width: 94%;
+}
+
+.sidenav a {
+font-size: 17px;
+display: block;
+padding: 6px 10px;
+text-decoration: none;
+color: black;
+
+}
+hr
+{
+	color: blue;
+}
+
+/* Kontakt */
+
+.textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uspjeh {
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+.uspjehPodaci {
+    margin-top: 40px;
+}
+
+#hiddenButton {
+    display: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+    width: 97%;
+    box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -webkit-box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -moz-box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px #00fc21 inset;
+}
+
+#contact-form input[type="submit"],
+#hiddenButton {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: grey;
+    background-image: linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+    background-image: -moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+    background-image: -webkit-linear-gradient(bottom, #737373 0%, #737373 52%);
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px #00fc21 inset;
+}
+
+#hiddenButton {
+    width: 250px;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+.galerija-slika {
+float: right;
+width: 15%;
+margin: 0% 1% 1%;
+height: 110px;
+width: 170px;
+
+
+}
+.glavna {
+	margin: 0% 1% 1%;
+  border: 5px outset #ddd;
+  border-color: #00fc21;
+  
+}
+
+
+.stranica {
+width: 60%;
+float: right;
+padding: 0 2%;
+}
+
+.footer {
+  text-align: right;
+  background-color: black;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  margin:50px 0 0 0;
+}
+
+
+.header {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+hr
+{
+	border-color: #00fc21;
+}
+
+.ikona
+{
+  position: top;
+}
+
+.video
+{
+	margin: 0 auto;
+	border: 0px outset #ddd;
+	border-color: #00fc21;
+  
+}
+
+.video1
+{
+  margin: 0 auto;
+  border: 1px outset #ddd;
+  border-color: grey;
+  align-self: center;
+
+}
+.kontakt-forma textarea {
+  width: 94%;
+  padding: 2%
+  
+  
+}
+
+.kontakt-forma input {
+width: 90%;
+padding: 2%;
+margin: 0 0 10px;
+
+
+}
+
+.kontakt-forma {
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+  
+  
+}
+
+.kontaktna {
+ width: 50%;
+  float: right;
+  padding: 40px 0 0 0;
+  text-align: right;
+
+
+}
+
+.submeni {
+  padding-left: 15px;
+  box-shadow: 5px 10px 20px black inset
+}
+
+.drustvene {
+  padding: 5%;
+  text-align: center;
+
+}
+.drustvene img {
+  width: 80px;
+  height: 80px;
+}
+
+.twit
+{
+  width: 10px;
+}
+.clearfix {
+	float: none;
+	clear: both;
+ 
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  background-color: #00fc21;
+ position: relative;
+  margin: auto;
+      min-height: 268px;
+}
+
+.mySlides img {
+  min-height: 268px;
+  max-width: 100%;
+  width: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: black;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
